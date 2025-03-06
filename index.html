@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Alura Challenge Amigo Secreto</title>
+    <link rel="shortcut icon" href="assets/logo-alura.png" type="imagem/x-icon">
+</head>
+
+<body>
+    <!-- Capa inicial -->
+    <section class="cover">
+        <header class="cover-header">
+            <h1 class="cover-title">Bem-vindo ao Amigo Secreto</h1><br>
+            <p class="cover-description">Clique no botão abaixo para entrar no projeto</p><br>
+            <button class="button-enter" onclick="entrarProjeto()">Entrar</button><br>
+            
+            <!-- Informações do desenvolvedor -->
+            <div class="developer-info">
+                <p class="developer-text">Desenvolvido por Waldomiro Lima</p>
+                <div class="social-links">
+                    <a href="https://github.com/wlmotta" target="_blank" aria-label="GitHub">
+                        <img src="./assets/github.png" alt="Ícone do GitHub">
+                    </a><br>
+                    <a href="https://www.linkedin.com/in/waldomiro-lima-motta-66b3a122a/" target="_blank" aria-label="LinkedIn">
+                        <img src="./assets/linkedin.jpg" alt="Ícone do LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content" style="display: none;">
+        <header class="header-banner">
+            <h1 class="main-title">Amigo Secreto</h1>
+            <img src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
+        </header>
+        
+        <section class="input-section">
+            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <div class="input-wrapper">
+                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+                <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+            </div>
+           
+            <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+
+            <div class="button-container">
+                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
+                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
+                    Sortear amigo
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function entrarProjeto() {
+            // Oculta a capa e exibe o conteúdo principal
+            document.querySelector('.cover').style.display = 'none';
+            document.querySelector('.main-content').style.display = 'block';
+        }
+    </script>
+    <script src="app.js" defer></script>
+</body>
+</html>
+
