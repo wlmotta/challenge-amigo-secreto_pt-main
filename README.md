@@ -5,12 +5,14 @@ Um Sorteio do Amigo Secreto feito pela Alura com 💛
 
 ## Índice
 
-- [Funcionalidades do Projeto](funcionalidades)
-- [Layout](layout)
-- [Demonstração](demonstração)
-- [Tecnologias utilizadas](tecnologias)
-- [Pessoa Autora](autor)
-- [Próximos Passos](passos)
+- [Projeto Amigo Secreto](#projeto-amigo-secreto)
+  - [Índice](#índice)
+  - [📱Funcionalidades do Projeto](#funcionalidades-do-projeto)
+  - [⊞ Layout](#-layout)
+  - [Demonstração](#demonstração)
+  - [🛠Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [🧑Pessoa Autora](#pessoa-autora)
+  - [👞Próximos Passos](#próximos-passos)
 
 ## 📱Funcionalidades do Projeto
 
@@ -29,7 +31,7 @@ Um Sorteio do Amigo Secreto feito pela Alura com 💛
 
 ## Demonstração
 
-[Link demonstração](http://127.0.0.1:5500/index.htmlgit)
+[Link demonstração](http://127.0.0.1:5500/index.html)
 
 ## 🛠Tecnologias Utilizadas
 
