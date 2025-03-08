@@ -14,6 +14,7 @@ Um Sorteio do Amigo Secreto feito pela Alura com 💛
   - [🛠Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [🧑Pessoa Autora](#pessoa-autora)
   - [👞Próximos Passos](#próximos-passos)
+  - [🏆Badge pela Conclusão do Desafio](#badge-pela-conclusão-do-desafio)
 
 ## 📱Funcionalidades do Projeto
 
@@ -51,3 +52,7 @@ Um Sorteio do Amigo Secreto feito pela Alura com 💛
 ## 👞Próximos Passos
 
 - [ ] Avançar no Projeto
+
+## 🏆Badge pela Conclusão do Desafio
+
+![badge](./assets/badge.webp)
