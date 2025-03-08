@@ -55,4 +55,4 @@ Um Sorteio do Amigo Secreto feito pela Alura com 💛
 
 ## 🏆Badge pela Conclusão do Desafio
 
-![badge](./assets/badge.webp)
+![badge](./assets/badge.png)
